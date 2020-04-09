@@ -1,0 +1,6 @@
+{
+    "programmer": "AVRISP mkII",
+    "board": "arduino:avr:mega",
+    "configuration": "cpu=atmega2560",
+    "sketch": "arduino\\eBrailleKeypad2Display\\eBrailleKeypad2Display.ino"
+}

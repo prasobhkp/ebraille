@@ -1,0 +1,4 @@
+notes/ignoreTest.txt
+*.ini
+screenshots/Thumbs.db
+screenshots/Thumbs.db_encryptable

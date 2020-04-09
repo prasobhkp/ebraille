@@ -1,0 +1,5 @@
+1. SD Card File I/O
+2. Text input via Bluetooth --
+3. Bluetooth File Transfer
+4. Speed control of Motor rotation --
+5. Inclusion of Keys for 'Backspace', 'Numeric' prefix code, 'Delete', 'Space' (?)
