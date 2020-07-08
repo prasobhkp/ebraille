@@ -24,7 +24,7 @@ byte keyCode = 0;
 #define countTestModeKeyPress 5
 #define secondsWaitForTestMode 3
 
-#define bt Serial1
+#define bt Serial
 #define baudrateBT 9600
 #define btRX1 19
 #define baudrateSM 9600
@@ -72,7 +72,7 @@ void setup()
     brailleDRAM[i] = 0x00;
   }
   //if (isTestMode()) {
-  //  testMode();
+    testMode();
   //}
   //testRun(50);
 
@@ -93,8 +93,8 @@ void setup()
     textEng = readFromFile("ebraille.txt", 0);
     Serial.println("Current Filename :" + currentFilename + ", Position: "+ positionStartByteCurrentFile);
   }
-*/
-  /*
+
+  
   initTimer();
   Serial.println(textEng);
   loadBrailleFromText(textEng);
@@ -114,6 +114,7 @@ void initTimer()
 void loop()
 {
   //runEBraille();
+  testDisplay();
 }
 
 void initBlueToothReceive()

@@ -6,7 +6,7 @@
  (resolution mm 100000)
  (unit mm)
  (structure
-  (boundary (rect pcb -170.90941 -46.98799 173.97481 46.42211))
+  (boundary (rect pcb -173.24713 -48.87086 174.00160 46.42211))
   (boundary (path signal 0.20320 -170.78241 -46.86099 173.84781 -46.86099 173.84781 46.29511
    -170.78241 46.29511 -170.78241 -46.86099))
   (flip_style mirror_first)
@@ -41,13 +41,13 @@
   (rule
    (width 0.25400)
    (clearance 0.38100)
-   (clearance 0.25400 (type wire_via))
-   (clearance 0.25400 (type wire_smd))
-   (clearance 0.25400 (type wire_pin))
+   (clearance 0.30480 (type wire_via))
+   (clearance 0.30480 (type wire_smd))
+   (clearance 0.30480 (type wire_pin))
    (clearance 0.25400 (type wire_wire))
-   (clearance 0.25400 (type via_pin))
-   (clearance 0.25400 (type via_via))
-   (clearance 0.25400 (type via_smd))
+   (clearance 0.30480 (type via_pin))
+   (clearance 0.30480 (type via_via))
+   (clearance 0.30480 (type via_smd))
   )
  )
  (placement
@@ -199,14 +199,14 @@
   (component P1_U2 (place U2 -120.55219 -34.70489 front 90))
   (component "ARDUINO-SIL6_J000" (place J000 -72.89219 -32.20489 front 0))
   (component "ARDUINO-SIL6_J001" (place J001 -55.39219 -32.20489 front 0))
-  (component "ARDUINO-SIL6_J003" (place J003 -37.89219 -32.20489 front 0))
-  (component "ARDUINO-SIL6_J002" (place J002 -20.39219 -32.20489 front 0))
-  (component "ARDUINO-SIL6_J005" (place J005 -2.89219 -32.20489 front 0))
-  (component "ARDUINO-SIL6_J004" (place J004 14.60781 -32.20489 front 0))
-  (component "ARDUINO-SIL6_J007" (place J007 32.10781 -32.20489 front 0))
-  (component "ARDUINO-SIL6_J006" (place J006 49.60781 -32.20489 front 0))
-  (component "ARDUINO-SIL6_J009" (place J009 67.10781 -32.20489 front 0))
-  (component "ARDUINO-SIL6_J008" (place J008 84.60781 -32.20489 front 0))
+  (component "ARDUINO-SIL6_J002" (place J002 -37.89219 -32.20489 front 0))
+  (component "ARDUINO-SIL6_J003" (place J003 -20.39219 -32.20489 front 0))
+  (component "ARDUINO-SIL6_J004" (place J004 -2.89219 -32.20489 front 0))
+  (component "ARDUINO-SIL6_J005" (place J005 14.60781 -32.20489 front 0))
+  (component "ARDUINO-SIL6_J006" (place J006 32.10781 -32.20489 front 0))
+  (component "ARDUINO-SIL6_J007" (place J007 49.60781 -32.20489 front 0))
+  (component "ARDUINO-SIL6_J008" (place J008 67.10781 -32.20489 front 0))
+  (component "ARDUINO-SIL6_J009" (place J009 84.60781 -32.20489 front 0))
   (component "ARDUINO-SIL6_$NONAME0" (place $NONAME0 -72.89219 -37.20489 front 0))
   (component "ARDUINO-SIL6_$NONAME1" (place $NONAME1 -55.39219 -37.20489 front 0))
   (component "ARDUINO-SIL6_$NONAME2" (place $NONAME2 -37.89219 -37.20489 front 0))
@@ -1311,15 +1311,6 @@
    (pin PS4 (rotate 0) 4 10.16000 0.00000)
    (pin PS4 (rotate 0) 5 12.70000 0.00000)
   )
-  (image "ARDUINO-SIL6_J003" (side front)
-   (outline (rect TOP -1.37160 -2.00660 14.07160 2.00660))
-   (pin PS4 (rotate 0) 0 0.00000 0.00000)
-   (pin PS4 (rotate 0) 1 2.54000 0.00000)
-   (pin PS4 (rotate 0) 2 5.08000 0.00000)
-   (pin PS4 (rotate 0) 3 7.62000 0.00000)
-   (pin PS4 (rotate 0) 4 10.16000 0.00000)
-   (pin PS4 (rotate 0) 5 12.70000 0.00000)
-  )
   (image "ARDUINO-SIL6_J002" (side front)
    (outline (rect TOP -1.37160 -2.00660 14.07160 2.00660))
    (pin PS4 (rotate 0) 0 0.00000 0.00000)
@@ -1329,7 +1320,7 @@
    (pin PS4 (rotate 0) 4 10.16000 0.00000)
    (pin PS4 (rotate 0) 5 12.70000 0.00000)
   )
-  (image "ARDUINO-SIL6_J005" (side front)
+  (image "ARDUINO-SIL6_J003" (side front)
    (outline (rect TOP -1.37160 -2.00660 14.07160 2.00660))
    (pin PS4 (rotate 0) 0 0.00000 0.00000)
    (pin PS4 (rotate 0) 1 2.54000 0.00000)
@@ -1347,7 +1338,7 @@
    (pin PS4 (rotate 0) 4 10.16000 0.00000)
    (pin PS4 (rotate 0) 5 12.70000 0.00000)
   )
-  (image "ARDUINO-SIL6_J007" (side front)
+  (image "ARDUINO-SIL6_J005" (side front)
    (outline (rect TOP -1.37160 -2.00660 14.07160 2.00660))
    (pin PS4 (rotate 0) 0 0.00000 0.00000)
    (pin PS4 (rotate 0) 1 2.54000 0.00000)
@@ -1365,7 +1356,7 @@
    (pin PS4 (rotate 0) 4 10.16000 0.00000)
    (pin PS4 (rotate 0) 5 12.70000 0.00000)
   )
-  (image "ARDUINO-SIL6_J009" (side front)
+  (image "ARDUINO-SIL6_J007" (side front)
    (outline (rect TOP -1.37160 -2.00660 14.07160 2.00660))
    (pin PS4 (rotate 0) 0 0.00000 0.00000)
    (pin PS4 (rotate 0) 1 2.54000 0.00000)
@@ -1375,6 +1366,15 @@
    (pin PS4 (rotate 0) 5 12.70000 0.00000)
   )
   (image "ARDUINO-SIL6_J008" (side front)
+   (outline (rect TOP -1.37160 -2.00660 14.07160 2.00660))
+   (pin PS4 (rotate 0) 0 0.00000 0.00000)
+   (pin PS4 (rotate 0) 1 2.54000 0.00000)
+   (pin PS4 (rotate 0) 2 5.08000 0.00000)
+   (pin PS4 (rotate 0) 3 7.62000 0.00000)
+   (pin PS4 (rotate 0) 4 10.16000 0.00000)
+   (pin PS4 (rotate 0) 5 12.70000 0.00000)
+  )
+  (image "ARDUINO-SIL6_J009" (side front)
    (outline (rect TOP -1.37160 -2.00660 14.07160 2.00660))
    (pin PS4 (rotate 0) 0 0.00000 0.00000)
    (pin PS4 (rotate 0) 1 2.54000 0.00000)
@@ -2963,7 +2963,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR2-15 J002-0)
+   (pins DR2-15 J003-0)
   )
   (net "M21"
    (circuit
@@ -2972,7 +2972,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR2-14 J002-1)
+   (pins DR2-14 J003-1)
   )
   (net "M22"
    (circuit
@@ -2981,7 +2981,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR2-13 J002-2)
+   (pins DR2-13 J003-2)
   )
   (net "M23"
    (circuit
@@ -2990,7 +2990,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR2-12 J002-3)
+   (pins DR2-12 J003-3)
   )
   (net "M24"
    (circuit
@@ -2999,7 +2999,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR2-11 J002-4)
+   (pins DR2-11 J003-4)
   )
   (net "M25"
    (circuit
@@ -3008,7 +3008,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR2-10 J002-5)
+   (pins DR2-10 J003-5)
   )
   (net "M30"
    (circuit
@@ -3017,7 +3017,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR3-15 J003-0)
+   (pins DR3-15 J002-0)
   )
   (net "M31"
    (circuit
@@ -3026,7 +3026,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR3-14 J003-1)
+   (pins DR3-14 J002-1)
   )
   (net "M32"
    (circuit
@@ -3035,7 +3035,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR3-13 J003-2)
+   (pins DR3-13 J002-2)
   )
   (net "M33"
    (circuit
@@ -3044,7 +3044,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR3-12 J003-3)
+   (pins DR3-12 J002-3)
   )
   (net "M34"
    (circuit
@@ -3053,7 +3053,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR3-11 J003-4)
+   (pins DR3-11 J002-4)
   )
   (net "M35"
    (circuit
@@ -3062,7 +3062,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR3-10 J003-5)
+   (pins DR3-10 J002-5)
   )
   (net "M40"
    (circuit
@@ -3071,7 +3071,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR4-15 J004-0)
+   (pins DR4-15 J005-0)
   )
   (net "M41"
    (circuit
@@ -3080,7 +3080,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR4-14 J004-1)
+   (pins DR4-14 J005-1)
   )
   (net "M42"
    (circuit
@@ -3089,7 +3089,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR4-13 J004-2)
+   (pins DR4-13 J005-2)
   )
   (net "M43"
    (circuit
@@ -3098,7 +3098,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR4-12 J004-3)
+   (pins DR4-12 J005-3)
   )
   (net "M44"
    (circuit
@@ -3107,7 +3107,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR4-11 J004-4)
+   (pins DR4-11 J005-4)
   )
   (net "M45"
    (circuit
@@ -3116,7 +3116,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR4-10 J004-5)
+   (pins DR4-10 J005-5)
   )
   (net "M50"
    (circuit
@@ -3125,7 +3125,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR5-15 J005-0)
+   (pins DR5-15 J004-0)
   )
   (net "M51"
    (circuit
@@ -3134,7 +3134,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR5-14 J005-1)
+   (pins DR5-14 J004-1)
   )
   (net "M52"
    (circuit
@@ -3143,7 +3143,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR5-13 J005-2)
+   (pins DR5-13 J004-2)
   )
   (net "M53"
    (circuit
@@ -3152,7 +3152,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR5-12 J005-3)
+   (pins DR5-12 J004-3)
   )
   (net "M54"
    (circuit
@@ -3161,7 +3161,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR5-11 J005-4)
+   (pins DR5-11 J004-4)
   )
   (net "M55"
    (circuit
@@ -3170,7 +3170,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR5-10 J005-5)
+   (pins DR5-10 J004-5)
   )
   (net "M60"
    (circuit
@@ -3179,7 +3179,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR6-15 J006-0)
+   (pins DR6-15 J007-0)
   )
   (net "M61"
    (circuit
@@ -3188,7 +3188,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR6-14 J006-1)
+   (pins DR6-14 J007-1)
   )
   (net "M62"
    (circuit
@@ -3197,7 +3197,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR6-13 J006-2)
+   (pins DR6-13 J007-2)
   )
   (net "M63"
    (circuit
@@ -3206,7 +3206,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR6-12 J006-3)
+   (pins DR6-12 J007-3)
   )
   (net "M64"
    (circuit
@@ -3215,7 +3215,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR6-11 J006-4)
+   (pins DR6-11 J007-4)
   )
   (net "M65"
    (circuit
@@ -3224,7 +3224,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR6-10 J006-5)
+   (pins DR6-10 J007-5)
   )
   (net "M70"
    (circuit
@@ -3233,7 +3233,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR7-15 J007-0)
+   (pins DR7-15 J006-0)
   )
   (net "M71"
    (circuit
@@ -3242,7 +3242,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR7-14 J007-1)
+   (pins DR7-14 J006-1)
   )
   (net "M72"
    (circuit
@@ -3251,7 +3251,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR7-13 J007-2)
+   (pins DR7-13 J006-2)
   )
   (net "M73"
    (circuit
@@ -3260,7 +3260,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR7-12 J007-3)
+   (pins DR7-12 J006-3)
   )
   (net "M74"
    (circuit
@@ -3269,7 +3269,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR7-11 J007-4)
+   (pins DR7-11 J006-4)
   )
   (net "M75"
    (circuit
@@ -3278,7 +3278,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR7-10 J007-5)
+   (pins DR7-10 J006-5)
   )
   (net "M80"
    (circuit
@@ -3287,7 +3287,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR8-15 J008-0)
+   (pins DR8-15 J009-0)
   )
   (net "M81"
    (circuit
@@ -3296,7 +3296,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR8-14 J008-1)
+   (pins DR8-14 J009-1)
   )
   (net "M82"
    (circuit
@@ -3305,7 +3305,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR8-13 J008-2)
+   (pins DR8-13 J009-2)
   )
   (net "M83"
    (circuit
@@ -3314,7 +3314,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR8-12 J008-3)
+   (pins DR8-12 J009-3)
   )
   (net "M84"
    (circuit
@@ -3323,7 +3323,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR8-11 J008-4)
+   (pins DR8-11 J009-4)
   )
   (net "M85"
    (circuit
@@ -3332,7 +3332,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR8-10 J008-5)
+   (pins DR8-10 J009-5)
   )
   (net "M90"
    (circuit
@@ -3341,7 +3341,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR9-15 J009-0)
+   (pins DR9-15 J008-0)
   )
   (net "M91"
    (circuit
@@ -3350,7 +3350,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR9-14 J009-1)
+   (pins DR9-14 J008-1)
   )
   (net "M92"
    (circuit
@@ -3359,7 +3359,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR9-13 J009-2)
+   (pins DR9-13 J008-2)
   )
   (net "M93"
    (circuit
@@ -3368,7 +3368,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR9-12 J009-3)
+   (pins DR9-12 J008-3)
   )
   (net "M94"
    (circuit
@@ -3377,7 +3377,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR9-11 J009-4)
+   (pins DR9-11 J008-4)
   )
   (net "M95"
    (circuit
@@ -3386,7 +3386,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins DR9-10 J009-5)
+   (pins DR9-10 J008-5)
   )
   (net "MISO"
    (circuit
@@ -4017,13 +4017,13 @@
    (rule
     (width 0.76200)
     (clearance 0.38100)
-    (clearance 0.25400 (type wire_via))
-    (clearance 0.25400 (type wire_smd))
-    (clearance 0.25400 (type wire_pin))
+    (clearance 0.30480 (type wire_via))
+    (clearance 0.30480 (type wire_smd))
+    (clearance 0.30480 (type wire_pin))
     (clearance 0.25400 (type wire_wire))
-    (clearance 0.25400 (type via_pin))
-    (clearance 0.25400 (type via_via))
-    (clearance 0.25400 (type via_smd))
+    (clearance 0.30480 (type via_pin))
+    (clearance 0.30480 (type via_via))
+    (clearance 0.30480 (type via_smd))
    )
   )
   (class SIGNAL
@@ -4288,15 +4288,15 @@
    "{NC}"
    "{VOID}"
    (rule
-    (width 0.76200)
+    (width 0.25399)
     (clearance 0.38100)
-    (clearance 0.25400 (type wire_via))
-    (clearance 0.25400 (type wire_smd))
-    (clearance 0.25400 (type wire_pin))
+    (clearance 0.30480 (type wire_via))
+    (clearance 0.30480 (type wire_smd))
+    (clearance 0.30480 (type wire_pin))
     (clearance 0.25400 (type wire_wire))
-    (clearance 0.25400 (type via_pin))
-    (clearance 0.25400 (type via_via))
-    (clearance 0.25400 (type via_smd))
+    (clearance 0.30480 (type via_pin))
+    (clearance 0.30480 (type via_via))
+    (clearance 0.30480 (type via_smd))
    )
   )
  )

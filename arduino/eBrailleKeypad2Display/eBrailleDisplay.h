@@ -1,9 +1,11 @@
 const byte brailleDotPins[] = {
-  32, 33, 34, 35, 36, 37
+  //32, 33, 34, 35, 36, 37
+  36, 38, 40, 42, 44, 46
 };
 
 const byte cellEnablePins[] = {
-  22, 23, 24, 25, 26, 27, 28, 29, 30, 31
+  23, 25, 27, 29, 31, 33, 35, 37, 39, 41
+  //22, 23, 24, 25, 26, 27, 28, 29, 30, 31
 };
 
 byte brailleDRAM[nCells];
@@ -36,23 +38,25 @@ void clearEBraille() {
 void testDisplay() {
   byte testPattern = 0x01;
   for (byte i  = 0; i < nCells; i++) {
+    clearEBraille();
     testPattern = 0x01;
     //Serial.println("Writing Test Pattern to Braille Cell " + String(i + 1) + " ...");
     for (byte j = 0; j < nDots; j++) {
       printEBrailleChar(i, testPattern << j);
-      delay(20);
+      delay(100);
     }
+    clearEBraille();
     testPattern = 0x20;
     for (byte j = 0; j < nDots; j++) {
       printEBrailleChar(i, testPattern >> j);
-      delay(20);
+      delay(100);
     }
   }
   testPattern = 0x3F;
   for (byte i  = 0; i < nCells; i++) {
     printEBrailleChar(i, testPattern);
   }
-  delay(500);
+  delay(2000);
   //Serial.println("Test Pattern Complete!!!");
   clearEBraille();
 }

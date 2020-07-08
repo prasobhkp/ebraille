@@ -1,4 +1,4 @@
-# Writing all output to: C:\Users\Abraham eBraille\ebraille\proteus\eBraille\eBraille.log
+# Writing all output to: C:\Users\Abraham\OneDrive\github\ebraille\proteus\eBraille\eBraille.log
 set pad_wire_necking on
 bus diagonal
 fanout 5
